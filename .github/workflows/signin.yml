@@ -3,6 +3,7 @@ name: Aliyun Signin
 on: 
   schedule: 
     - cron: '30 6 * * *'
+  workflow_dispatch: 
 jobs: 
   signin: 
     name: Aliyun Signin
