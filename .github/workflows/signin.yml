@@ -2,12 +2,11 @@ name: Aliyun Signin
 
 on: 
   schedule: 
-    - cron: '30 11 * * *'
-  workflow_dispatch: 
+    - cron: '30 6 * * *'
 jobs: 
   signin: 
-    name: Aliyun Signin    
-    runs-on: ubuntu-latest    
+    name: Aliyun Signin
+    runs-on: ubuntu-latest
     steps: 
       - uses: ImYrS/aliyun-auto-signin@main
         with:
